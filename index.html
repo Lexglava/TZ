@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ТЗ</title>
+</head>
+<body>
+    <div class="content">
+        <h1>Адаптивный веб-дизайн</h1>
+        <img src="/photo/image.png" class="image">
+        <p>Адаптивный веб-дизайн (англ. Adaptive Web Design)&nbsp;&mdash; дизайн веб-страниц, обеспечивающих правильное отображение сайта на&nbsp;различных устройствах, подключенных к&nbsp;интернету и&nbsp;динамически подстраивающийся под заданные размеры окна браузера.</p>
+        <p>Целью адаптивного веб-дизайна является универсальность отображения содержимого веб-сайта для различных устройств. Для того, чтобы веб-сайт был удобно просматриваемым с&nbsp;устройств форматов и&nbsp;с&nbsp;экранами различных разрешений, по&nbsp;технологии адаптивного веб-дизайна не&nbsp;нужно создавать отдельные версии веб-сайта для отдельных видов устройств. Один сайт может работать на&nbsp;смартфоне, планшете, ноутбуке и&nbsp;телевизоре с&nbsp;выходом в&nbsp;интернет, то&nbsp;есть на&nbsp;всем спектр устройств.</p>
+        <h2>Понятия</h2>
+        <p>В&nbsp;первые понятие отзывчивого веб-дизайна (англ. responsive web-design от&nbsp;responsive architecture) ввёл Итан Маркотт в&nbsp;одной из&nbsp;своих статей в&nbsp;мае 2010&nbsp;года. В&nbsp;последствии он&nbsp;выпустил книгу под названием &laquo;Responsive Web Design&raquo;, посвященную данной технологии.</p>
+        <p>Джеффри Зельдман (англ.) русск. предложил расширить понятие Итана Маркотта, чтобы оно покрывало любые подходы, обеспечивающие ясное визуальное восприятие независимо от&nbsp;характеристик экрана и&nbsp;других ограничений пользовательского устройства.</p>
+        <button id="openModal">ОСТАВИТЬ ОТЗЫВ О СТАТЬЕ</button>
+    </div>
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>ОТЗЫВ О СТАТЬЕ</h2>
+            <form>
+            <input type="text" id="name" placeholder="Имя:*" required>
+            <textarea id="feedback" placeholder="Пожалуйста, оставьте ваш отзыв*" required></textarea>
+            <button type="submit">ОТПРАВИТЬ</button>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
